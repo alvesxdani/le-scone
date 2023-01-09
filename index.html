@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Le Scone - Restaurante"/>
   <title>Le Scone</title>
   <link rel="stylesheet" type="text/css" href="/css/style.css" />
 
@@ -15,7 +16,103 @@
 </head>
 
 <body>
-  <p>Teste</p>
+  <main class="container intro">
+    <div class="grid-5">
+      <img src="assets/img/lescone.png" alt="Logo da marca" class="logo">
+      <div class="intro-info">
+        <p>
+          De Seg. à Sab. <span class="aberto"></span> <br />
+          das 07h às 18h
+        </p>
+
+        <p>
+          Praia de Botafogo, 300 <br />
+          Rio de Janeiro - RJ
+        </p>
+      </div>
+
+      <p class="intro-telefone">+55 21 2412-3333</p>
+    </div>
+
+    <div class="grid-7">
+      <img src="assets/img/foto.jpg" class="intro-foto"alt="Foto do Le Scone">
+    </div>
+  </main>
+
+  <section class="container menu">
+    <h1 class="grid-4 titulo">Menu</h1>
+    <div class="grid-7 offset-1">
+      <div class="menu-item">
+        <img src="assets/img/prato-1.png" alt="Foto do Prato 1">
+        <h2>Entradas</h2>
+        <ul>
+          <li><span>R$1,70</span> Ovos mexidos</li>
+          <li><span>R$1,70</span> Scones de frutas</li>
+          <li><span>R$1,70</span> Joelho de queijo</li>
+          <li><span>R$1,70</span> Presunto cozido</li>
+          <li><span>R$1,70</span> Coxinha de Frango</li>
+        </ul>
+      </div>
+
+      <div class="menu-item">
+        <img src="assets/img/prato-2.png" alt="Foto do Prato 2">
+        <h2>Pratos principais</h2>
+        <ul>
+          <li><span>R$11,70</span> Penne com queijo</li>
+          <li><span>R$12,70</span> Feijoada</li>
+          <li><span>R$31,70</span> Costela ao molho</li>
+          <li><span>R$41,70</span> Medalhão de frango</li>
+          <li><span>R$11,70</span> Coxinha de Frango</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container contato">
+    <h1 class="grid-4 titulo">Contato</h1>
+    <div class="grid-7 offset-1">
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" />
+
+        <div class="row">
+          <div class="grid-7">
+            <label for="email">E-mail</label>
+            <input type="email" />
+          </div>
+
+          <div class="grid-5">
+            <label for="email">Telefone:</label>
+            <input type="tel" />
+          </div>
+        </div>
+
+        <label for="message">Mensagem:</label>
+        <textarea name="message"></textarea>
+
+        <button type="submit" class="button">Enviar</button>
+      </form>
+
+      <div class="contato-info">
+        <p>contato@lescone.com ////</p>
+        <p>+55 21 2412-3333 ////</p>
+      </div>
+
+      <a href="#" class="contato-mapa">
+        <img src="/" alt="Como chegar ao Restaurante">
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p> Le Scone (1989 - 2023). Alguns direitos reservados.</p>
+      <a href="https://daniela-moreira.vercel.app" target="_blank">
+        <img src="/assets/img/lescone-icone.png" alt="Ícone do Restaurante Le Scone">
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
