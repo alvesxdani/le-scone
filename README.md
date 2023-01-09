@@ -5,6 +5,6 @@ Este projeto de exercício prático da Origamid que consiste em uma landing page
  - HTML
  - CSS
  - SASS
- - 
+
 # Deploy
 https://alvesxdani.github.io/le-scone
